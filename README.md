@@ -16,3 +16,11 @@ This is a really cool way to built your REST API for development purpose. Follow
 
 ### Deployment
 Deploying the application which uses json-server is very easy. You just have to create a GitHub repository and push your local changes to that repository and access it with a specific URL from the browser.
+
+In my case it is https://my-json-server.typicode.com/arnabsen1729/json-server-template/
+
+Since it is using the `db.json` the REST API endpoints are:
+https://my-json-server.typicode.com/arnabsen1729/json-server-template/users
+https://my-json-server.typicode.com/arnabsen1729/json-server-template/todos
+
+**N.B** It will use the `start` script in your `package.json`. So make sure to change that accordingly. 
