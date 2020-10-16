@@ -17,10 +17,20 @@ This is a really cool way to built your REST API for development purpose. Follow
 ### Deployment
 Deploying the application which uses json-server is very easy. You just have to create a GitHub repository and push your local changes to that repository and access it with a specific URL from the browser.
 
-In my case it is https://my-json-server.typicode.com/arnabsen1729/json-server-template/
+In my case it is
+
+https://my-json-server.typicode.com/arnabsen1729/json-server-template/
 
 Since it is using the `db.json` the REST API endpoints are:
+
 https://my-json-server.typicode.com/arnabsen1729/json-server-template/users
+
 https://my-json-server.typicode.com/arnabsen1729/json-server-template/todos
 
 **N.B** It will use the `start` script in your `package.json`. So make sure to change that accordingly. 
+
+### Ref
+1. [Dev.to article](https://dev.to/myogeshchavan97/how-to-easily-create-and-host-your-own-rest-api-without-writing-a-single-line-of-code-2np4)
+2. [Medium article](https://medium.com/codingthesmartway-com-blog/create-a-rest-api-with-json-server-36da8680136d)
+3. [JSON-Server Git Rep](https://github.com/typicode/json-server)
+4. [Faker.js Git Rep](https://github.com/Marak/faker.js)
